@@ -1,0 +1,52 @@
+.profile{
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("../img/profile.png");
+    height: 70vh;
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 80%;
+}
+.carousel.slide{
+    width: 80%;
+    margin: 0 auto;
+}
+.carousel.slide img{
+    margin: 0 auto;
+    max-height: 700px;
+}
+@media(max-width:425px){
+    .carousel.slide img{
+    margin: 0 auto;
+    max-height: 400px;
+}
+}
+.carousel.slide .carousel-caption h5,
+.carousel.slide .carousel-caption a{
+    color: #27b;
+}
+.list-inline li{
+    display: inline-block;
+    padding: 0 5px;
+}
+@media(max-width:425px){
+    .profile{
+        width: 70%;
+        height: 65vh;
+        background-size: cover;
+
+    }
+}
+
+.navbar-custom{
+    padding: 0 20px;
+}
+
+.navbar-custom .navbar-nav{
+    margin-left: auto;
+}
+
+.navbar-custom .nav-link{
+    color: #fff !important;
+}
+
